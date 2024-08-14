@@ -44,6 +44,8 @@ nnoremap <leader>pt, l?[^a-zA-Z]<CR>lvf,hP
 " Paste over everything inside two commas
 nnoremap <leader>pi, F,lvf,hP
 
+" Yank word. Doesn't work if the cursor is at the last character of the word.
+nnoremap <leader>yw l?[^a-zA-Z]<CR>lvey
+
 " Yank everything inside two commas
 nnoremap <leader>yi, F,lvf,hy
-
